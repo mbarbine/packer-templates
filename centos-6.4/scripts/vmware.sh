@@ -1,3 +1,4 @@
+yum update -y
 yum install -y fuse-libs
 mkdir -p /mnt/vmware
 mount -o loop /home/vagrant/linux.iso /mnt/vmware
